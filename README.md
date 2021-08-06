@@ -5,7 +5,7 @@
 To run the bonus, you must install psycopg2.From a terminal, run this: `pip install psycopg2`
 You must also have Jupyter Labs installed. The version i am running is 3.0.16. If you have errors in your code, please update to this version.
 
-Please create a config file located in the local repository>EmployeeSQL>Bonus. Name this config "config.py" and format it as follows\n
+Please create a config file located in the local repository>EmployeeSQL>Bonus. Name this config "config.py" and format it as follows
 ```
 username:"your postgres username here"
 password: "your postgres password here"
