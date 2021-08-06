@@ -5,6 +5,11 @@
 To run the bonus, you must install psycopg2.From a terminal, run this: `pip install psycopg2`
 You must also have Jupyter Labs installed. The version i am running is 3.0.16. If you have errors in your code, please update to this version.
 
+Please create a config file located in the local repository>EmployeeSQL>Bonus. Name this config "config.py" and format it as follows\n
+```
+username:"your postgres username here"
+password: "your postgres password here"
+```
 
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
@@ -50,7 +55,7 @@ The following details will be found in the databse
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## Bonus (Optional)
+## Extra
 After parsing through the data, there is a suspicion that the data might be fake or falsified. We will need to investigate further to see if the data is in fact false or not.
 
 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
